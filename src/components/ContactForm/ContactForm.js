@@ -23,6 +23,8 @@ const ContactForm = props => {
       case 'number':
         setNumber(value);
         break;
+      default:
+        break;
     }
   };
 
